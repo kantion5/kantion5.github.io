@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    font-family: 'Teko', sans-serif;
+}
+ul{
+    padding-inline-start: 0px;
+}
+
+body{
+    background-image: url('../images/cringeback.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    background-color: #2E2E2E;
+    background-position-y: -60px;
+    
+    
+
+}
+/* -- Container class for entire web page -- */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* -- Top Navigation bar - Name and right menu -- */
+.top-nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 400px;
+    
+}
+h1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    margin-top: 12px;
+    
+}
+.nav li{
+    margin: 10px;
+    list-style-type: none;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.current a{
+    color: #5353ff;
+    text-decoration: underline;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+
+
+/* -- Short Description after top nav bar -- */
+article {
+    margin-bottom: 600px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+hr{
+    margin:5px 0;
+}
+
+
+/* -- HTML project list -- */
+.html-projects img{
+    width: 500px;  
+    height: 500px;
+    border: 10px black;
+}
+
+.html-project-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.html-project-list li{
+    list-style-type: none;
+}
+.project-container a{
+    color:#5353ff;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+
+
+/* .NET project list */
+.net-project{
+    padding-bottom: 30px;
+}
+
+.net-project a{
+    font-size: 1.5em;
+    color: #5353ff;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+/* Java project list */
+.java-project a{
+    font-size: 1.5em;
+    color: #5353ff;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+}
+
+footer{
+    background-color: rgb(61, 61, 61);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.fab {
+    
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    
+  }
+.fab:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.fa-linkedin {
+    
+    color: white;
+  }
+.fa-github{
+    
+    color: white;
+}
