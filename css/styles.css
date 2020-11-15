@@ -56,12 +56,13 @@ h1 a{
 }
 .nav a:hover{
     text-decoration: underline;
+    
 }
 
 
 /* -- Short Description after top nav bar -- */
 article {
-    margin-bottom: 600px;
+    margin-bottom: 500px;
     font-size: 1.5em;
     text-align: center;
 }
@@ -128,7 +129,7 @@ footer{
     width: 50px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    
     
   }
 .fab:hover{
@@ -142,4 +143,15 @@ footer{
 .fa-github{
     
     color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .top-nav-bar{
+        display: block;
+    }
+
+    .title{
+        text-align: center;
+        
+    }
 }
