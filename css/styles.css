@@ -9,7 +9,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-image: url('../images/cringeback.jpg');
+    background-image: url('../images/background1.jpg');
     background-repeat: no-repeat;
     background-size: 100% 700px;
     background-color: #2E2E2E;
@@ -29,7 +29,7 @@ body{
 .top-nav-bar{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 400px;
+    margin-bottom: 350px;
     
 }
 h1 a{
@@ -113,6 +113,9 @@ hr{
     text-decoration: none;
     text-shadow: 1px 1px 1px black;
 }
+.net-project ul li{
+    list-style-type: none;
+}
 
 
 /* Java project list */
@@ -121,6 +124,9 @@ hr{
     color: #5353ff;
     text-decoration: none;
     text-shadow: 1px 1px 1px black;
+}
+.java-project ul li{
+    list-style-type: none;
 }
 
 footer{
@@ -182,7 +188,7 @@ footer{
         margin: auto;
     }
     body{
-        background-image: url('../images/cringeback.jpg');
+        background-image: url('../images/background1.jpg');
         background-repeat: no-repeat;
         background-size: 100% 500px;
         background-color: #2E2E2E;
