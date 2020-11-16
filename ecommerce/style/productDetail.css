@@ -1,0 +1,79 @@
+*{margin: 0; padding:0;}
+body{
+  background-color: #557A95;
+  font-family:Arial, Helvetica, sans-serif;
+  margin:0;
+  padding: 0;
+}
+.header{
+  width: 100%;
+  margin:auto;
+  overflow: hidden;
+  color:black;
+  text-align: center;
+  background-image: url('../Assets/backgroundImages/headerimg.jpg');
+  background-position: center left;
+}
+.headerl{
+  text-decoration: none;
+  color: black;
+  margin:0;
+  padding: 0;
+}
+.productInfo{
+  width: 60%;
+  float: left;
+  margin: auto;
+}
+.productInfo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  width: 500px;
+  height: 500px;
+}
+.productInfo p{
+  text-align: center;
+  font-size: 24px;
+}
+.cartButtons{
+
+  width: auto;
+  float: left;
+  font-size: 24px;
+
+}
+.h3{
+  color: #7FFFD4;
+}
+#href{
+  text-decoration: none;
+}
+#cartButton{
+  background-color: #4CAF50;
+  text-decoration: none;
+  border: black;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 10px 24px;
+}
+#wishButton{
+  font-size: 16px;
+  text-decoration: none;
+  border: black;
+  border-radius: 6px;
+  padding: 10px 24px;
+  background-color: #00FFFF;
+
+
+}
+#cartButton:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+#wishButton:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+

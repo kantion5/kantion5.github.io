@@ -1,0 +1,26 @@
+<link rel="stylesheet" type="text/css" href="./style/cart.css">
+<body>
+    <div class="header">
+        <h1>
+          <a href="#!/" class="headerl">Anything4You</a>
+        </h1>
+    </div>
+    <h1>Your Cart</h1>
+    <div class="checkout">
+        <h3>Subtotal: {{subtotal | currency}}</h3>
+        <a href="#!/checkout">
+            <input type="button" value="Checkout">
+        </a>
+        
+    </div>
+    
+    <div ng-repeat="i in cartItems" class="item">
+        <img ng-src="{{i.img1}}" alt="{{i.alt}}" class="image">
+        <div class="text">
+            <p>{{i.price | currency}}</p>
+            <p>{{i.name}}</p>
+        </div>
+        
+        <hr>
+    </div>
+</body>

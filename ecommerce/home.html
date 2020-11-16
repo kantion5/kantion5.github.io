@@ -1,0 +1,55 @@
+<body>
+  <link rel="stylesheet" type="text/css" href="./style/home.css">
+  <div class="header">
+      <h1>
+        <a href="#!/" class="headerl">Anything4You</a>
+      </h1>
+  </div>
+
+  <div class ="searchbar">
+    <div class="search-container">
+      <input type="text" ng-model="searchBox" id="search" placeholder="search">
+      
+    </div>
+    <div>
+      <a href="#!/">Logout</a>
+      <a href="#!/account">Account</a>
+      <a href="#!/cart">Cart</a>
+    </div>
+  </div>
+
+  <nav class ="filters">
+    <div class="filterCategory">
+      <h4>Filter By Category</h4>
+      <select name="selectTag" ng-model="selectTag">
+        <option value="">Select an option</option>
+        <option value="gaming">Gaming</option>
+        <option value="apparel">Apparel</option>
+        <option value="home">Home and Decoration</option>
+        <option value="kitchen">Kitchen</option>
+      </select>
+    </div>
+
+    <div class="filterPrice">
+      <h4>Price Range</h4>
+      <select name="price" ng-model="cPrice" id="priceOptions">
+        <option value="">Select an option</option>
+        <option value="50"> >$50</option>
+        <option value="gaming">$50-$100</option>
+        <option value="apparel">$100-$150</option>
+        <option value="home">$150+</option>
+      </select>
+    </div>
+
+  </nav>
+  
+  <div class="images">
+    <div ng-repeat="i in images | filter:selectTag | filter:searchBox" class="imageWithText">
+      <a ng-href="#!/productDetail" ng-click="setItem(i)">
+        <img ng-src="{{i.img1}}" alt="{{i.alt}}">
+        
+        <p>{{i.name}}<br>{{i.price | currency}}<br></p>
+      </a>
+    </div>
+  </div>
+</body>
