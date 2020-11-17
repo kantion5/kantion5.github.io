@@ -198,7 +198,7 @@ footer{
     }
     
     .html-project-list{
-        justify-content: space-around;
+        justify-content: space-between;
        align-content: center;
     }
     .html-project-list li{
