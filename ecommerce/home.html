@@ -7,18 +7,21 @@
   </div>
 
   <div class ="searchbar">
-    <div class="search-container">
       <input type="text" ng-model="searchBox" id="search" placeholder="search">
-      
-    </div>
-    <div>
-      <a href="#!/">Logout</a>
-      <a href="#!/account">Account</a>
-      <a href="#!/cart">Cart</a>
-    </div>
+      <ul class="menu-list">
+        <li>
+          <a href="#!/">Logout</a>
+        </li>
+        <li>
+          <a href="#!/account">Account</a>
+        </li>
+        <li>
+          <a href="#!/cart">Cart</a>
+        </li>
+      </ul>
   </div>
 
-  <nav class ="filters">
+  <div class ="filters">
     <div class="filterCategory">
       <h4>Filter By Category</h4>
       <select name="selectTag" ng-model="selectTag">
@@ -41,7 +44,7 @@
       </select>
     </div>
 
-  </nav>
+  </div>
   
   <div class="images">
     <div ng-repeat="i in images | filter:selectTag | filter:searchBox" class="imageWithText">
