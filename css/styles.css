@@ -9,11 +9,11 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-image: url('../images/background1.jpg');
+    background-image: url('../images/background2.jpg');
     background-repeat: no-repeat;
     background-size: 100% 1050px;
     background-color: #2E2E2E;
-    background-position-y: -60px;
+    
     
      
     
@@ -67,8 +67,9 @@ h1 a{
 article {
     margin-bottom: 700px;
     /*margin-bottom: 174px;*/
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
+    color: white;
 }
 
 hr{
@@ -144,10 +145,11 @@ footer{
     align-items: center;
     display: flex;
     justify-content: space-around;
+    padding: 20px;
 }
 .fab {
     
-    font-size: 30px;
+    font-size: 35px;
     width: 50px;
     text-align: center;
     text-decoration: none;
@@ -198,13 +200,14 @@ footer{
         margin: auto;
     }
     body{
-        background-image: url('../images/background1.jpg');
+        background-image: url('../images/background2.jpg');
         background-repeat: no-repeat;
-        background-size: 100% 500px;
+        background-size: 100% 700px;
         background-color: #2E2E2E;
     }
     article{
-        margin-bottom: 250px;
+        font-size: 1.5em;
+        margin-bottom: 300px;
     }
     
     .html-project-list{
