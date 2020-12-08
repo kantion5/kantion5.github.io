@@ -83,8 +83,8 @@ hr{
     margin-bottom: 100px;
 }
 .html-projects img{
-    width: 500px;  
-    height: 500px;
+    width: 50vw;  
+    height: auto;
     border: 10px black;
 }
 
@@ -103,6 +103,9 @@ hr{
 }
 .project-container p{
     font-size: 1.5em;
+}
+.languages{
+    color:white;
 }
 
 
@@ -183,8 +186,8 @@ footer{
     }
 
     .html-projects img{
-        width: 270px;  
-        height: 270px;
+        width: 90vw;  
+        height: auto;
         border: 10px black;
     }
     .nav{
@@ -202,12 +205,12 @@ footer{
     body{
         background-image: url('../images/background2.jpg');
         background-repeat: no-repeat;
-        background-size: 100% 700px;
+        background-size: 100% 500px;
         background-color: #2E2E2E;
     }
     article{
-        font-size: 1.5em;
-        margin-bottom: 300px;
+        font-size: 1.2em;
+        margin-bottom: 100px;
     }
     
     .html-project-list{
@@ -226,6 +229,13 @@ footer{
         display: flex;
         justify-content: space-around;
         padding: 5px, 0, 5px, 0;
+    }
+
+    @media screen and (max-width: 320px){
+        .top-nav-bar{
+            display: block;
+            margin-bottom: 100px;
+        }
     }
 
 }
